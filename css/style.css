@@ -1,0 +1,220 @@
+
+header {
+    background-color: rgba(28, 34, 48, 255);
+}
+
+.img-inicio {
+    width: 50%;
+}
+
+.btn-header {
+    width: 25%;
+}
+
+main {
+    background-color: rgba(24, 30, 42, 255);
+    padding-bottom: 250px;
+    position: relative;
+    
+}
+
+.fondo-subsecciones {
+    background-color: rgba(33, 41, 60, 255);
+    width: 80%;
+    z-index: 2; /* Asegúrate de que esté encima de la imagen */
+    position: relative; /* Para aplicar el z-index correctamente */
+}
+
+.comillas {
+    position: absolute;
+    left: 3%;
+    z-index: 1; /* Asegúrate que este detrás de las subsecciones */
+}
+
+.seccion-flotante {
+    position: absolute;
+    bottom: -8%;
+    right: 25%;
+    background-color: rgba(28, 34, 48, 255);
+    width: 50%;
+    box-shadow: 0 8px 12px rgba(28, 34, 58, 5); /* Añade una sombra */
+    border-radius: 20px; /* Bordes redondeados */
+}
+
+.seccion-flotante-hijo {
+    text-align: center;
+    padding: 40px;
+}
+
+.btn-main {
+    width: 75%;
+}
+
+.custom-img-size {
+    width: 20%;
+}
+
+.parrafos {
+    font-size: 0.8rem;
+}
+
+.subparrafos {
+    font-size: 0.5rem;
+}
+
+/* Estilos para la imagen */
+.rounded-image {
+    border-radius: 50%; /* Borde redondeado */
+    width: 50px; /* Ancho de la imagen */
+    height: 50px; /* Alto de la imagen */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente */
+}
+
+.imagen-intermedia {
+    width: 65%;
+    height: 65%;
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente */
+}
+
+footer {
+    padding-top: 150px;
+    background-color: rgba(12, 21, 36, 255);
+}
+
+/* Media Queries */
+
+/* Estilos para dispositivos con pantallas menores a 576px */
+@media (max-width: 575.98px) {
+    .btn-header {
+        width: 75%;
+    }
+    h1 {
+        
+        text-align: center; /* Justificar a la izquierda */
+        margin: 0;
+        width: 100%; /* Ajusta el ancho al 100% del contenedor */
+        box-sizing: border-box;
+    }
+    .img-inicio {
+        width: 100%;
+    }
+    .seccion-flotante {
+        position: absolute;
+        bottom: -5%;
+        right: 5%;
+        background-color: rgba(28, 34, 48, 255);
+        height: 13%;
+        width: 90%;
+    }
+    .seccion-flotante-hijo {
+        text-align: justify;
+    }
+    .btn-main {
+        width: 100%;
+    }
+    .fondo-subsecciones {
+        width: 90%;
+    }
+    .comillas {
+        width: 10%;
+        left: 2%;
+    }
+    .parrafos {
+        font-size: 0.6rem;
+        max-width: 100%;
+    }
+    .rounded-image {
+        width: 30px; /* Ancho de la imagen */
+        height: 30px; /* Alto de la imagen */
+    }
+}
+
+/* Pequeño (≥576px) y menor a 768px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .img-inicio {
+        width: 75%;
+    }
+    .btn-header {
+        width: 50%;
+    }
+    .seccion-flotante {
+        width: 70%;
+        bottom: -5%;
+        right: 15%;
+    }
+    .btn-main {
+        width: 90%;
+    }
+    .fondo-subsecciones {
+        width: 85%;
+    }
+    .comillas {
+        width: 8%;
+    }
+    .parrafos {
+        font-size: 0.7rem;
+    }
+}
+
+/* Mediano (≥768px) y menor a 992px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img-inicio {
+        width: 60%;
+    }
+    .btn-header {
+        width: 40%;
+    }
+    .seccion-flotante {
+        width: 60%;
+        bottom: -5%;
+        right: 20%;
+    }
+    .mail{
+        width: 50%;
+    }
+    .btn-main {
+        width: 100%;
+    }
+    .fondo-subsecciones {
+        width: 90%;
+    }
+    .comillas {
+        width: 7%;
+    }
+    .parrafos {
+        font-size: 0.75rem;
+    }
+}
+
+/* Grande (≥992px) y menor a 1200px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .img-inicio {
+        width: 50%;
+    }
+    
+    .btn-header {
+        width: 30%;
+    }
+    .seccion-flotante {
+        width: 50%;
+        bottom: -8%;
+        right: 25%;
+    }
+    .mail{
+        width: 50%;
+    }
+    .btn-main {
+        width: 100%;
+    }
+    .fondo-subsecciones {
+        width: 75%;
+    }
+    .comillas {
+        width: 6%;
+    }
+    .parrafos {
+        font-size: 0.8rem;
+    }
+}
+
+
