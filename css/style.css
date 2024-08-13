@@ -127,6 +127,9 @@ footer {
         width: 30px; 
         height: 30px; 
     }
+    .centrado{
+        padding-left: 30%;
+    }
 }
 
 /* Pequeño (≥576px) y menor a 768px */
